@@ -31,7 +31,10 @@ h1,h3,h6
 
 
 
-
+#search
+{
+  display:inline;
+}
 
 
 ul {
@@ -109,10 +112,13 @@ ul {
 
   #rreshti2
   {
-      display:flex;
+    
+    height:415px;    
+    display:flex;
       justify-content:center;
       align-items: center;
       padding-bottom:20px;
+
       border-bottom:0.5px solid gray;
       
   }
@@ -146,12 +152,64 @@ article
 {
     margin-top:50px;
     display:flex;
-    
+  
+  
 }
-}
+
 
 
 button 
  {
-  
+  color:white;
+  background-color:#E8573D;
+  border-radius:9px;
+  height:2.6em;
+  width:4.9em;
+  display:block;
  }
+
+article div
+{
+  padding-bottom:10px;
+  border-right:1px solid gray;
+ 
+ 
+}
+
+section 
+{
+  display:flex;
+  
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+
+.smaller
+{
+  width:215px;
+  height:130px;
+
+}
+
+
+.foto
+{
+  position: relative;
+  left:120px;
+  
+ 
+}
+
+
+.foto button
+{
+  height:3em;
+  width:8em;
+  
+
+}
+
+

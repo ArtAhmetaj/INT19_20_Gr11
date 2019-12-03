@@ -1,55 +1,157 @@
+#header
+{
+    display:flex;
+justify-content: space-between;
+margin-top:30px;
+}
 
-     header 
-     {
-         position: relative;
-         bottom:15px;
-     } 
+
+body
+{
+    padding:0 30px 30px 30px;
+}
+
+
+h1,h3,h6
+{
+    color:#917661
+}
+
+#container1
+{
+
+    align-self:flex-start;
+}
+
+#container2
+{
+    align-self:flex-end;
+    margin-bottom:30px;
+}
+
+
+
+
+
+
+ul {
+
+    list-style-type: none;
+  display:flex;
+  justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E8573D;
+    border-radius:10px;
+   
+  }
+  
+  li {
+  
+    width:150%;
+    height:150%;
+   
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a 
+  {
+      color:white;
+      font-size:20px;
+  }
+
+
+  
+  li a:hover {
+    background-color:  	#8E7866;
+  }
+
+
+  img 
+
+  {
+   float:left;
+    width:500px;
+      height:400px;
      
-
-       #search
-       {
-           float:right;
-           
-           position: relative;
-           bottom:20px;
-           
-
-       }
-
-       button
-       {
-       background-color:#E97458;
-       border:solid 1px;
-       border-radius:2px;    
-       }
-       ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 20px;
-  border:solid 1px;
-  border-radius:10px;
- background-color:#E97458;
+    margin-right:250px;
+    margin-top:50px;
+  }
 
 
 
-}
-#buttonlabel
-{
-    color:darkred;
-}
+  #loreimupsum
+  {
+      
+      font-size:15px;
+      
 
-li  {
+     
+  }
+
+  #hugeasstext
+  {
+
+    color:#917661;
+    font-size:25px;
+    
+ 
+  }
+
+  #rreshti2
+  {
+      display:flex;
+      justify-content:center;
+      align-items: center;
+      padding-bottom:20px;
+      border-bottom:0.5px solid gray;
+      
+  }
+
+     
+      
+  
+
+  #rreshti2 div
+  {
+      align-self:flex-end;
+  margin-left:50px;
+      
+  }
+
+
    
-    display: inline;
-    margin : 0 60px;
-   
-}
-li a 
+   h3 
+  {
+      text-align:center;
+      font-size:30px;
+  }
+
+
+  #quote
 {
-    color:White;
+    text-align: center;
 }
 
- li a:hover
+article
+{
+    margin-top:50px;
+    display:flex;
+    
+}
+}
+
+
+button 
  {
-     background-color: 	#927868;
+  
  }

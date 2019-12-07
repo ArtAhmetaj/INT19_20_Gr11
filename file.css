@@ -37,7 +37,7 @@ h1,h3,h6
 }
 
 
-ul {
+#homepages {
 
     list-style-type: none;
   display:flex;
@@ -171,7 +171,7 @@ button
 article div
 {
   padding-bottom:10px;
-  border-right:1px solid gray;
+  
  
  
 }
@@ -191,6 +191,7 @@ section
 {
   width:215px;
   height:130px;
+  border: 2px solid gray;
 
 }
 
@@ -212,4 +213,10 @@ section
 
 }
 
+
+#lastone
+{
+  display:flex;
+  justify-content: space-between;
+}
 

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <title> Projekti final</title>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="stilet.css">
+            <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Ubuntu&display=swap" rel="stylesheet"> 
+          
+
+      </head>
+
+
+<body>
+      <header id="header">
+            <div id="container1">
+                  <h1 > Sport</h1>
+          
+      </div>
+      <div id="container2">     
+     
+            <input type="search" placeholder="Search our Website" id="site-search" name="q"
+                   aria-label="Search through site content">
+            
+            <button id="search">Kerko   </button>
+      </div> 
+            
+      </header>
+
+ <nav >
+      <ul id="menu">
+<li class="item">Page 1</li>
+<li class="item">Page 2</li>
+<li class="item">Page 3</li>
+<li class="item">Page 4</li>
+<li class="item">Page 5</li>
+          
+
+      </ul>
+
+
+
+</nav>
+
+
+
+<div id="rreshti2">
+<img src="https://i.pinimg.com/originals/d2/35/01/d2350155f30ad946907bcb7a730cfeca.jpg" alt="haah " >
+<div  >
+
+<p id="hugeasstext"> Rezultatet e ndeshjeve te fundit ne Ligen e Kampioneve ne grupet E, F, G dhe H</p>
+<p id="loreimupsum">
+
+
+           Jane zhvilluar ndeshjet e fundit te fazes se grupeve
+            <br>
+             ne disa grupe interesante ne Ligen e Kampioneve
+
+             
+ </p>
+
+ <button > Lexo </button>
+</div>
+</div >
+<h2> Lajmet e fundit nga sporti</h2>
+<p id="quote">
+            
+<article>
+<div>
+            <h6>Xhiro e dyte e super kupes se Kosoves ne futboll</h6>
+            <p> Triumfuan te gjithe favoritet pervec Lirise qe befasoi me fitore.
+            </p>
+                       
+<button> Lexo</button>
+                       
+</div>
+<div>
+<h6>Rezultatet nga java e fundit ne top 5 ligan evropiane</h6>
+<p> Kete jave u luajten disa ndeshje interesante ne ligat me te rendesishme evropiane<br>
+    ate te Anglise, Spanjes, Italise, Gjermanise dhe Holandes.
+</p>
+<button> Lexo </button>
+            
+</div>
+<div>
+            <h6>Caktohet ndeshja miqesore e rradhes</h6>
+            <p> Federata e Futbollit te Kosoves ka njoftuar se eshte caktuar<br>
+                ndeshja e rradesh miqesore kunder Suedise qe do zhvillohet ne Katar.
+            </p>
+                       
+<button> Lexo</button>
+                       
+</div>
+<div>
+            <h6>Lajme nga NBA</h6>
+           <p> Rezultatet e ndeshjeve te fundit ne ligen<br>
+            me te forte te basketbollit ne bote, NBA.
+                  </p>
+                      
+<button >Lexo </button>
+                      
+</div>
+ 
+
+</body>
+</html>

@@ -92,7 +92,7 @@ h1,h3,h6
   }
   
   li {
-  
+   
     width:150%;
     height:150%;
     font-family: 'Open Sans', sans-serif;
@@ -208,3 +208,116 @@ hr
 }
 
 
+#LajmiKryesor
+{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+align-items: center;
+ 
+  padding-bottom:1.3em;
+}
+
+#LajmiKryesor img
+{
+  width: 450px;
+  height:400px;
+ 
+ 
+  
+}
+
+#LajmiKryesor img:hover
+{
+  border-right:3px solid darkseagreen;
+}
+
+
+
+#LajmiKryesor  p
+{
+  font-size:20px;
+}
+
+
+#LajmiKryesor p a , .parent p a 
+
+{
+  text-decoration: none;
+  color:rgba(0,31,63,30);
+}
+
+
+#LajmiKryesor p a:hover , .parent p a:hover
+
+{
+ 
+  color:rgba(0,31,03,100);
+  font-weight: bold;
+  
+}
+
+.parent p 
+{
+  font-size:16px;
+}
+
+
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  padding-top:2.7em;
+  padding-left:8em;
+  height:80%;
+  width: 70%;
+  margin-left:8em;
+  }
+  
+  .div1 { grid-area: 1 / 1 / 2 / 2; }
+  .div2 { grid-area: 1 / 2 / 2 / 3; }
+  .div3 { grid-area: 1 / 3 / 2 / 4; }
+  .div4 { grid-area: 2 / 1 / 3 / 2; }
+  .div5 { grid-area: 2 / 2 / 3 / 3; }
+  .div6 { grid-area: 2 / 3 / 3 / 4; }
+  .div7 { grid-area: 3 / 1 / 4 / 2; }
+  .div8 { grid-area: 3 / 2 / 4 / 3; }
+  .div9 { grid-area: 3 / 3 / 4 / 4; } 
+
+
+  .griddivs img
+{
+  width: 100%;
+  height:19em;
+  border-radius:px;
+ 
+
+
+}
+
+
+
+.griddivs p 
+{
+  text-align: center;
+}
+
+.griddivs:hover
+{
+  background-color: #DDDDDD;
+  font-weight: bold;
+}
+
+.griddivs{
+  border-radius: 0% 0% 100% 100% / 0% 0% 8px 8px;
+  box-shadow: rgba(0, 0, 0,.30) 0 2px 3px;
+
+  }
+
+
+
+  
+  

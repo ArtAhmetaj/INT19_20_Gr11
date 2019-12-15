@@ -63,17 +63,12 @@ h1,h3,h6
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size:20px;
   }
   
   
-  li a 
-  {
-      color:white;
-      font-size:20px;
-  }
-
-
-  
+ 
+   	
   li a:hover {
     background-color:  	#8E7866;
   }
@@ -166,6 +161,7 @@ button
   height:2.6em;
   width:4.9em;
   display:block;
+  border:0px;
  }
 
 article div
@@ -249,4 +245,5 @@ li:hover
   display:flex;
   justify-content: space-between;
 }
+
 

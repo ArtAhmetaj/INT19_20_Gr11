@@ -16,8 +16,51 @@ body
     
 }
 
+#LajmiKryesor
+{
+  color: #fff;
+  background: #333;
+  padding: 2rem;
+  position: relative;
+}
 
-
+#LajmiKryesor:before
+{
+  content: '';
+  background: url('../Teknologji/snooker.jpg') no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2; 
+}
+#LajmiKryesor .mini-container
+{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  z-index: 1;
+}
+#LajmiKryesor .mini-container-content
+{
+  z-index: 1;
+}
+.butoni
+{
+  display: inline-block;
+  border: none;
+  background-color: #001f3f;
+  color:#fff;
+  padding: 0.5rem 1.5rem;
+}
+.butoni:hover
+{
+  opacity: 0.9;
+  text-align: center;
+}
 /* Fonts
 
 
@@ -218,7 +261,7 @@ hr
 }
 
 
-#LajmiKryesor
+/* #LajmiKryesor
 {
   display:flex;
   justify-content: center;
@@ -226,8 +269,8 @@ hr
 align-items: center;
  
   padding-bottom:1.3em;
-}
-
+} */
+/* 
 #LajmiKryesor img
 {
   width: 450px;
@@ -235,7 +278,7 @@ align-items: center;
  
  
   
-}
+} */
 
 mark
 {
@@ -243,7 +286,7 @@ mark
 
 }
 
-#LajmiKryesor img:hover
+/* #LajmiKryesor img:hover
 {
   border-right:3px solid darkseagreen;
 }
@@ -271,7 +314,7 @@ mark
   color:rgba(0,31,03,100);
   font-weight: bold;
   
-}
+} */
 
 .parent p 
 {

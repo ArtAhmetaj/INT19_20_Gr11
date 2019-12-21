@@ -10,7 +10,7 @@ margin-top:30px;
 body
 {
     padding:0 30px 30px 30px;
-   background-image:url(../cloth_alike.png)
+   background-image:url(../cloth_alike.png);
 
   
     
@@ -168,7 +168,7 @@ li:nth-child(1):hover
   background-color:#2f97c1 ;
  font-weight:bold;
  font-size:20px;
- color:black;
+
 }
 
 li:nth-child(2):hover
@@ -227,15 +227,17 @@ hr
 {
     display:flex;
     flex-direction: column;
+
 }
+
 
 #lajmi img 
 {
     width:747px;
     height:420px;
     align-self:center;
-    border: 1px solid  #372549;
-    
+    border: 1px solid  #0074D9;  
+   
 }
 
 #lajmi h3 
@@ -244,6 +246,8 @@ hr
  border-bottom:1px solid #3D9970;
 text-align: center;
     font-size: 30px;
+    POSITION:relative;
+    bottom:1em;
 }
 
 
@@ -255,3 +259,40 @@ text-align: center;
     align-self: center;
 
 }
+
+#lajmi p 
+
+{
+font-size:20px;
+
+}
+
+
+#lajmi button
+
+{
+  position:relative;
+  
+  width:120px;
+  height:90px;
+  left:15em;
+  
+  
+}
+
+
+
+#lajmi a 
+{
+  text-decoration: none;
+}
+
+
+mark
+{
+  background-color:rgba(33, 79, 75, 0.2);
+ border-radius:2px;
+ 
+}
+
+

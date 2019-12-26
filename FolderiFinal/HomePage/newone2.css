@@ -161,13 +161,18 @@ h1,h3,h6
   #rreshti2
   {
     
+    
     height:415px;
      
     display:flex;
       justify-content:center;
       align-items: center;
       padding-bottom:20px;
-
+      -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -moz-animation-name:slideInLeft;
+       animation-duration: 3s;
+       animation-direction:linear;
       border-bottom:0.5px solid  gray;
       
   }
@@ -409,3 +414,76 @@ span
   color:green;
 }
 
+
+
+#mailto
+
+{
+  text-decoration: none;
+  color:#3D9970;
+position:relative;
+top:0.3em;
+}
+
+#mailto:hover
+{
+  font-style:italic;
+}
+
+
+#connect a 
+{
+  text-decoration: none;
+  color:#3D9970;
+position:relative;
+top:0.3em;
+}
+
+
+#connect a:hover
+{
+  font-style:italic;
+
+}
+
+
+
+#rreshti2 img:hover
+{
+  transform: scale(1.05, 1.05);
+   
+}
+
+
+
+
+@-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}

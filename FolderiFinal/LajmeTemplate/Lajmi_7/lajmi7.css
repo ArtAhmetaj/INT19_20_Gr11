@@ -10,7 +10,7 @@ margin-top:30px;
 body
 {
     padding:0 30px 30px 30px;
-   background-image:url(../cloth_alike.png);
+   background-image:url(../../Teknologji/cloth_alike.png);
 
   
     
@@ -223,12 +223,24 @@ hr
 }
 
 
+
+/*  qitu  kom shtu kod edhe ndrroje te krejt tjerat e kom shti edhe 1 video edhe sdi qka lesh 
+ */
+
 #lajmi
 {
     display:flex;
     flex-direction: column;
+    opacity:100%;
+  margin: 5em 2em 2em 2em;
+  padding: 5em;
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    border-radius:30px;
+    background-color:rgba(170, 170, 170, 0.3);
+  }
 
-}
+
 
 
 #lajmi img 
@@ -293,6 +305,14 @@ mark
   background-color:rgba(33, 79, 75, 0.2);
  border-radius:2px;
  
+}
+
+
+video
+
+{
+  margin-left:25px;
+  padding-bottom: 20px;
 }
 
 

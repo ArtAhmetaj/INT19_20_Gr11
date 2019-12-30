@@ -16,8 +16,18 @@ body
     
 }
 
+#arti .tool
+{
+display:none;
+}
 
-
+audio
+{
+position:relative;
+left:6em;
+margin-left:50em;
+  
+}
 /* Fonts
 
 
@@ -91,7 +101,7 @@ h1,h3,h6
    
   }
   
-  li {
+  #homepages li {
   
     width:150%;
     height:150%;
@@ -99,7 +109,7 @@ h1,h3,h6
    
   }
   
-  li a {
+  #homepages li a {
     display: block;
     color: white;
     text-align: center;
@@ -112,7 +122,7 @@ h1,h3,h6
 
  
    	
-  li a:hover {
+  #homepages li a:hover {
     background-color:  	#8E7866;
   }
 
@@ -152,18 +162,18 @@ button
     flex: 1;
     list-style:none;
 }
-li:first-child{
+#homepages li:first-child{
     
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-li:last-child{
+#homepages li:last-child{
 
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-li:nth-child(1):hover
+#homepages li:nth-child(1):hover
 {
   background-color:#2f97c1 ;
  font-weight:bold;
@@ -171,26 +181,26 @@ li:nth-child(1):hover
 
 }
 
-li:nth-child(2):hover
+#homepages li:nth-child(2):hover
 {
   background-color:#214f4b ;
   font-weight:bold;
  font-size:20px;
 }
 
-li:nth-child(3):hover
+#homepages li:nth-child(3):hover
 {
   background-color:#85144b  ;
   font-weight:bold;
  font-size:20px;
 }
-li:nth-child(4):hover
+#homepages li:nth-child(4):hover
 {
   background-color:#de6c83 ;
   font-weight:bold;
  font-size:20px;
 }
-li:nth-child(5):hover
+#homepages li:nth-child(5):hover
 {
   background-color:#372549 ;
   font-weight:bold;

@@ -322,8 +322,27 @@ display:flex;
     justify-content: center;
 
 }
+#kerkesat
+{
+    text-shadow: 2px 4px #a6ff00;
+}
 
+#kerkesat button
+    {
+    
+    width:120px;
+    height:50px;
+}
+#butoniinnerhtml
+{
+    position:relative;
+    top:10px;
+}
 
+.teflex
+{
+    display:flex;
+}
 
 /* #kerkesatbutoni
 {

@@ -7,17 +7,16 @@
     <link rel="stylesheet" href="frontpage.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Ubuntu&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- <script>
-        $(document).ready(function () {
-            $("#kerkesatbutoni").click(function () {
-                $("h3").hide();
-            });
-
-            $("#kerkesatbutoni2").click(function () {
-                $("h3").show();
-            });
-        });
-    </script> -->
+    <script>
+    $(document).ready(function(){
+  $("#butonihtml").click(function(){
+    alert("" + $("h3").text());
+  });
+  $("#butoni2innerhtml").click(function(){
+    alert("" + $("h3").html());
+  });
+});
+</script>
 
 
 </head>
@@ -57,6 +56,17 @@
     <div id="lajmi">
         <div id="kerkesat">
             <h3><strong>KERKESAT E TJERA</strong></h3>
+           
+           <div class="teflex">
+            <div class>
+
+                <button id="butonihtml" type="button">INFO per HTML</button>
+                <button id="butoni2innerhtml"type="button">INFO per INNERHTML</button>
+
+            </div>
+
+
+        </div>
             <!-- <div id="butonat"><button id="kerkesatbutoni">KLIKO NE MUA</button>
                 <button id="kerkesatbutoni2">Show</button> -->
             </div>

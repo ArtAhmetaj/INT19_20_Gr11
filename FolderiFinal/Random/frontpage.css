@@ -75,6 +75,7 @@ h1,h3,h6
 #search
 {
   display:inline;
+ 
 }
 
 
@@ -113,6 +114,7 @@ h1,h3,h6
  
    	
   li a:hover {
+   
     background-color:  	#8E7866;
   }
 
@@ -192,16 +194,18 @@ li:nth-child(4):hover
 }
 li:nth-child(5):hover
 {
-  background-color:#372549 ;
-  font-weight:bold;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(182,153,189,1) 0%, rgba(14,138,163,1) 98%);  font-weight:bold;
  font-size:20px;
 }
 
 li:nth-child(6):hover
 {
-  background-color:#c4b818 ;
+  
   font-weight:bold;
  font-size:20px;
+ background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(9,121,27,0.5) 0%, rgba(14,138,163,0.8) 98%);
 }
 
 

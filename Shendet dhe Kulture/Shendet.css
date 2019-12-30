@@ -10,7 +10,8 @@ margin-top:30px;
 body
 {
     padding:0 30px 30px 30px;
-   background-image:url(cloth_alike.png)
+   background-image:url(../FolderiFinal/Teknologji/cloth_alike.png);
+  background-origin: border-box;
 
   
     

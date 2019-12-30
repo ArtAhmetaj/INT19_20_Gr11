@@ -5,7 +5,18 @@
             <meta charset="UTF-8">
             <link rel="stylesheet" href="Shendet.css">
             <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Ubuntu&display=swap" rel="stylesheet"> 
-          
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script>
+          $(document).ready(function(){
+  $("#fshihe").click(function(){
+    $("#LajmiKryesor").hide();
+  });
+  $("#shfaqe").click(function(){
+    $("#LajmiKryesor").show();
+  });
+});
+
+</script>
 
       </head>
 
@@ -50,12 +61,16 @@
                   <h1>Qendra Klinike Universitare e Kosoves futet ne greve masive</h1>
                   <p>I gjithe stafi i QKUK futen ne greve ne shenje proteste per rritje te pagave. Ministri ne detyre, Fetah Podvorica kishte deklaruar ne rritje 30% te pagave, por pasi qe fitoi mandatin dhe pushtetin nuk beri asgje.</p>
                   <a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi 1/lajmi.html" class="butoni" style="text-decoration: none;">Lexo me Shume</a>
+               
             </div>
             </div>
       </div>
 
 </div>
+
 <hr>
+<button type="button" id="fshihe">Fshihe Lajmin</button>
+<button type="button" id="shfaqe">Shfaqe Lajmin</button>
 
 <div class="parent">
 

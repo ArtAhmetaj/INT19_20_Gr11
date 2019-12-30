@@ -235,10 +235,20 @@ hr
 
 #lajmi
 {
+    
     display:flex;
-    flex-direction: column;
+  flex-direction: column;
+  opacity:100%;
+margin: 5em 2em 2em 2em;
+padding: 5em;
+  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+  border-radius:30px;
+  background-color:rgba(170, 170, 170, 0.3);
+
 
 }
+
 
 
 #lajmi img 
@@ -304,5 +314,26 @@ mark
  border-radius:2px;
  
 }
+#butonat
+{
+display:flex;
+    text-shadow: 2px 4px #a6ff00;
+    word-wrap: normal;
+    justify-content: center;
+
+}
 
 
+
+/* #kerkesatbutoni
+{
+    margin-top:1em;
+    margin-left:1em;
+
+}
+
+#kerkesatbutoni2
+{
+    margin-top:1em;
+    margin-left:1em;
+} */

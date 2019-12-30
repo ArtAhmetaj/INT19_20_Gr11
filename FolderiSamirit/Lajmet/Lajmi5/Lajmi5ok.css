@@ -15,22 +15,40 @@ body
   
     
 }
+th, td {
+  padding: 10px;
+  text-align: left;
+  
+}
+tr:hover {background-color: #f5f5f5;}
+        {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
+ td,  th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+ 
+
+ tr:hover {background-color: #ddd;}
+
+ th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
 
 
 /* Fonts
-
-
     font-family: 'Ubuntu', serif;
-
     font-family: 'Lato', sans-serif;
-
     font-family: 'Solway', serif;
-
-
-
-
-
 */
 
 header p 
@@ -75,7 +93,6 @@ h1,h3,h6
 #search
 {
   display:inline;
- 
 }
 
 
@@ -114,7 +131,6 @@ h1,h3,h6
  
    	
   li a:hover {
-   
     background-color:  	#8E7866;
   }
 
@@ -194,19 +210,11 @@ li:nth-child(4):hover
 }
 li:nth-child(5):hover
 {
-    background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(182,153,189,1) 0%, rgba(14,138,163,1) 98%);  font-weight:bold;
+  background-color:#372549 ;
+  font-weight:bold;
  font-size:20px;
 }
 
-li:nth-child(6):hover
-{
-  
-  font-weight:bold;
- font-size:20px;
- background: rgb(2,0,36);
- background: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(9,121,27,0.5) 0%, rgba(14,138,163,0.8) 98%);
-}
 
 
 
@@ -232,28 +240,13 @@ hr
   color:#3D9970;
 }
 
-#drag
-{
-    width:88px !important;
-    height:31px !important;
-}
 
 #lajmi
 {
-    
     display:flex;
-  flex-direction: column;
-  opacity:100%;
-margin: 5em 2em 2em 2em;
-padding: 5em;
-  
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
-  border-radius:30px;
-  background-color:rgba(170, 170, 170, 0.3);
-
+    flex-direction: column;
 
 }
-
 
 
 #lajmi img 
@@ -261,7 +254,7 @@ padding: 5em;
     width:747px;
     height:420px;
     align-self:center;
-    /* border: 1px solid  #0074D9;   */
+    border: 1px solid  #0074D9;  
    
 }
 
@@ -319,59 +312,3 @@ mark
  border-radius:2px;
  
 }
-#butonat
-{
-display:flex;
-    text-shadow: 2px 4px #a6ff00;
-    word-wrap: normal;
-    justify-content: center;
-
-}
-#kerkesat
-{
-    text-shadow: 2px 4px #a6ff00;
-}
-
-
-#hapsira1, #hapsira2 {
-    float: left;
-    width: 88px;
-    height: 31px;
-    margin: 10px;
-    padding: 10px;
-  border: solid 1px;
-    background-color:rgba(170, 170, 170, 0.3);
-
-
-}
-
-
-#kerkesat button
-    {
-    
-    width:120px;
-    height:50px;
-}
-#butoni2innerhtml
-{
-    position:relative;
-    top:10px;
-}
-
-.teflex
-{
-    display:flex;
-}
-
-/* #kerkesatbutoni
-{
-    margin-top:1em;
-    margin-left:1em;
-
-}
-
-#kerkesatbutoni2
-{
-    margin-top:1em;
-    margin-left:1em;
-} */

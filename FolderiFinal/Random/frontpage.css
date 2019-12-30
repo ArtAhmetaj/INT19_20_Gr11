@@ -232,6 +232,11 @@ hr
   color:#3D9970;
 }
 
+#drag
+{
+    width:88px !important;
+    height:31px !important;
+}
 
 #lajmi
 {
@@ -256,7 +261,7 @@ padding: 5em;
     width:747px;
     height:420px;
     align-self:center;
-    border: 1px solid  #0074D9;  
+    /* border: 1px solid  #0074D9;   */
    
 }
 
@@ -327,13 +332,27 @@ display:flex;
     text-shadow: 2px 4px #a6ff00;
 }
 
+
+#hapsira1, #hapsira2 {
+    float: left;
+    width: 88px;
+    height: 31px;
+    margin: 10px;
+    padding: 10px;
+  border: solid 1px;
+    background-color:rgba(170, 170, 170, 0.3);
+
+
+}
+
+
 #kerkesat button
     {
     
     width:120px;
     height:50px;
 }
-#butoniinnerhtml
+#butoni2innerhtml
 {
     position:relative;
     top:10px;

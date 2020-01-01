@@ -232,11 +232,11 @@ hr
   color:#3D9970;
 }
 
-#drag
+/* #drag
 {
-    width:88px !important;
-    height:31px !important;
-}
+  width: 150px !important;
+  height: 100px !important;
+} */
 
 #lajmi
 {
@@ -255,11 +255,13 @@ padding: 5em;
 }
 
 
+/*  pak ma ndryshe eshte ktu perdorimi img te lajmi perdoret per at foton me animacion po qr le qishtu iher
+*/
 
 #lajmi img 
 {
-    width:747px;
-    height:420px;
+  width: 150px ;
+    height: 100px; 
     align-self:center;
     /* border: 1px solid  #0074D9;   */
    
@@ -327,7 +329,7 @@ display:flex;
     justify-content: center;
 
 }
-#kerkesat
+h3
 {
     text-shadow: 2px 4px #a6ff00;
 }
@@ -335,11 +337,11 @@ display:flex;
 
 #hapsira1, #hapsira2 {
     float: left;
-    width: 88px;
-    height: 31px;
+    width: 150px;
+    height: 100px;
     margin: 10px;
     padding: 10px;
-  border: solid 1px;
+  border: solid 3px rgba(0, 116, 217, 0.3);
     background-color:rgba(170, 170, 170, 0.3);
 
 
@@ -358,9 +360,9 @@ display:flex;
     top:10px;
 }
 
-.teflex
+#kerkesat
 {
-    display:flex;
+  column-count:3;
+  column-gap:40px;
+  column-width: 200px;
 }
-
-

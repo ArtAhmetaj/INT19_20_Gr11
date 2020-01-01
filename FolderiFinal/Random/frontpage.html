@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Ubuntu&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="kerkesa.js"></script>
+<script src>"workers.js"</script>
+<script src>"webworkers.js"</script>
 <script>
     $(document).ready(function(){
   $("#butonihtml").click(function(){
@@ -17,6 +19,25 @@
     alert("" + $("h3").html());
   });
 });
+var r;
+
+function lshoje() {
+  if(typeof(Worker) !== "undefined") {
+    if(typeof(r) == "undefined") {
+      r = new Worker("workers.js");
+    }
+    r.onmessage = function(event) {
+      document.getElementById("result").innerHTML = event.data;
+    };
+  } else {
+    document.getElementById("result").innerHTML = "Browseri juaj nuk i supporton workers.";
+  }
+}
+
+function nale() { 
+  r.terminate();
+  r = undefined;
+}
 </script>
 
 
@@ -80,11 +101,22 @@
 
 <div id="hapsira2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 <p>Qoje nalt nga humnera</p>
+<div id="wworker" class="teflex">
+    
+    <p>Ne momentin qe e prekni Start, fillon numerimi ne sekonda se sa keni qendruar ne faqe:</p>
+    
+    <p> <output id="result"></output> sekonda</p>   
+    <button onclick="lshoje()">Lesho</button>
+    <br> 
+    <button id="dyshi"onclick="nale()">Ndalo</button>
+
+
+ </div>  
 
         </div>
-        
+             
     </div>
-    
+ 
 
 
 </body>

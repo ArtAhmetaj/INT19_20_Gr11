@@ -358,7 +358,8 @@ li:nth-child(5):hover
 {
   display:flex;
   justify-content: space-around;
-
+  margin-right: auto;
+  margin-left: auto;
   margin-top:2.5em;
   position:relative;
   right:5em;
@@ -510,3 +511,19 @@ top:0.3em;
 
 bottom:10px;
 }
+#lokacioni
+{
+  text-decoration: none;
+  color: black;
+}
+
+/* #lokacioni
+{
+  text-decoration: none;
+  color:green;
+}
+#lokacioni:hover
+{
+  text-transform: uppercase;
+  color: yellowgreen
+} */

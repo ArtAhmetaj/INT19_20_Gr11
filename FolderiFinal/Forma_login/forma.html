@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-<title > 
+  <title>
     Forma Page
 
 
-</title>
-<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Ubuntu&display=swap" rel="stylesheet"> 
+  </title>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Ubuntu&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="forma.css">
+  <link rel="stylesheet" href="forma.css">
+  <script src="errorcatching.js" defer ></script>  
+  
+ 
+  
 </head>
+
 <body>
 
 
 
-    <div class="log-form">
-        <h2>Login ne Account </h2>
-        <form  method="get" autocomplete="on">
-          <input type="text" title="username"  name="username"placeholder="Username" required maxlength="20" list />
-          <input type="password" title="username"  name="password" placeholder="Password"  autocomplete="off"
-          required />
-         
-          <button type="submit" class="btn">Login</button>
-          
-          
-          <a class="forgot" href="#">Forgot Username or Password?</a>
-        </form>
-      </div>
+  <div class="log-form">
+    <h2>Login ne Account </h2>
+    <form method="get" autocomplete="on">
+      <input id="username" type="text" title="username" name="username" placeholder="Username" required maxlength="20"
+        list />
+      <input type="password" title="username" name="password" placeholder="Password" autocomplete="off" required />
+
+      <button onclick="isUsername();"  type="submit" class="btn">Login</button>
+
+
+      <a class="forgot"
+        href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/Forma_login/forgot Password/formaperkthim.html">Forgot
+        Username or Password?</a>
+    </form>
+  </div>
 
 
 
-    </body>
 
-    
+
+ 
+</body>
+
+
 </html>
 
 

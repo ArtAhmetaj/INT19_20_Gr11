@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+  <title>
+    Forma Page
+
+
+  </title>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Ubuntu&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="formaperkthim.css">
+</head>
+
+<body>
+
+
+
+  <div class="log-form">
+    <h2>Login ne Account </h2>
+    <form method="" autocomplete="on">
+      <input id="email" type="text" title="Email" name="Email" placeholder="Email" required maxlength="20" list />
+      <input  id="koditype="text" title="Kodi" name="Kodi" placeholder="Kodi" autocomplete="off" required />
+
+      <button onclick="valido();" type="submit" class="btn">Login</button>
+
+
+    </form>
+  </div>
+
+  <script>
+
+
+function valido()
+{
+
+
+    function isEmailAddres() {
+var str="";
+      str = document.getElementById("email").value;
+      
+      var pattern = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+      try {
+        if (!(str.match(pattern)))
+          throw "jovalide";
+      }
+      catch (err) {
+        alert("Emaila eshte" + err);
+      }
+
+    }
+
+
+  function isvalidcode()
+  {var code="";
+   code=document.getElementById("koditype").value;
+   var pattern1=/^[A-Z]\d{3}$/;
+   try
+   {
+    if (!(code.test(pattern1)))
+    throw " jovalide";
+
+
+    
+   }
+   catch(err)
+   {
+     alert("Kodi eshte" + err);
+
+   }
+  }
+  
+
+  
+
+  }
+
+
+  </script>
+
+</body>
+
+
+</html>

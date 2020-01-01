@@ -3,7 +3,7 @@ var myObstacle;
 
 function startGame() {
     myGamePiece = new component(30, 30, "blue", 10, 120);
-    myObstacle  = new component(10, 30, "green", 433, 0);    
+    myObstacle  = new component(10, 30, "red", 433, 0);    
     myGameArea.start();
 }
 

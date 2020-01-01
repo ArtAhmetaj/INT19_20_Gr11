@@ -18,9 +18,10 @@
     <div class="log-form">
         <h2>Login ne Account </h2>
         <form  method="get" autocomplete="on">
-          <input type="text" title="username" placeholder="Username" required  />
-          <input type="password" title="username" placeholder="Password"  required />
-          Encryption: <keygen name="security">
+          <input type="text" title="username"  name="username"placeholder="Username" required maxlength="20" list />
+          <input type="password" title="username"  name="password" placeholder="Password"  autocomplete="off"
+          required />
+         
           <button type="submit" class="btn">Login</button>
           
           

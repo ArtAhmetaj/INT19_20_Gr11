@@ -4,31 +4,68 @@
 <head>
       <title> Projekti final</title>
       <meta charset="UTF-8">
-     
-      <script> src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-      <script>
-      
-      $(document).ready(function(){
-  $("#largoje").click(function(){
-    $("#LajmiKryesor").slideToggle("slow");
-	$("#largoje").text("Kliko per ta mbyllur");
-	
-  });
-});
-
-
-
-      
-      </script>
+      <script> src = "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
       <link rel="stylesheet" href="Teknologji.css">
       <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Ubuntu&display=swap" rel="stylesheet">
+    
+    <script src="../ndrrobackground.js" defer >  </script>
+   
+   
+   <script>
+
+
+            function preke() {
+                  var z = document.getElementById("shfaqe");
+                  z.style.opacity = "1";
+                  var y = document.getElementById("fshihe");
+                  y.style.opacity = "0";
+
+            }
+
+            function preke2() {
+
+
+                  var z = document.getElementById("shfaqe");
+                  z.style.opacity = "0";
+                  var y = document.getElementById("fshihe");
+                  y.style.opacity = "1"
+            }
+
+      </script>
+
+
+
+    <script>
+
+
+                  $(document).ready(function () {
+                        $("#fshihe").click(function () {
+                              $("#LajmiKryesor").hide("slow");
+
+
+                        });
+                        $("#shfaqe").click(function () {
+                              $("#LajmiKryesor").fadeIn("slow");
+
+                        });
+
+                  });
+      </script>
+
+
+      </script>
+
+   
+
+
+     
 
 
 </head>
 
 
-<body>
+<body  >
       <header id="header">
             <div id="container1">
                   <h1> <abbr title="Portali Informativ i Kosoves">PIK</abbr></h1>
@@ -37,18 +74,20 @@
             </div>
             <div id="container2">
 
-                  <input type="search" placeholder="Kerkoni ne Faqen tone " id="site-search" name="q"
+                  <input   type="search" placeholder="Kerkoni ne Faqen tone " id="site-search" name="q"
                         aria-label="Search through site content">
 
-                  <button id="search">Search</button>
+                  <button  id="search">Search</button>
             </div>
 
       </header>
 
       <nav>
             <ul id="menu">
-                  <li onclick="location.href='/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/HomePage/newone.html'" class="item">Home</li>
-                  <li onclick="location.href='/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/Teknologji/Teknologji.html'" class="item">
+                  <li onclick="location.href='/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/HomePage/newone.html'"
+                        class="item">Home</li>
+                  <li onclick="location.href='/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/Teknologji/Teknologji.html'"
+                        class="item">
                         Teknologji</li>
                   <li class="item">Showbiz</li>
                   <li class="item">Sport</li>
@@ -58,6 +97,7 @@
 
             </ul>
 
+            <button onclick="preke2();" type="button" id="shfaqe">Shfaqe Lajmin</button>
 
 
       </nav>
@@ -71,7 +111,8 @@
                                     e cila mund të transmetojë të dhëna dhe lidhje interneti</p>
                               <a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi 1/lajmi1.html"
                                     class="butoni" style="text-decoration: none;">Lexo me Shume</a>
-                                    <button id ="largoje">  Largoje Lajmin</button>
+                              <button onclick="preke();" type="button" id="fshihe">Fshihe Lajmin</button>
+
                         </div>
                   </div>
             </div>
@@ -109,7 +150,8 @@
                   <a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_4/lajmi4.html"><img
                               src="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_4/one.jpg"
                               alt="conpectone"></a>
-                  <p><a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_4/lajmi4.html">Concept One mund të jetë telefoni i parë i palosshëm nga OnePlus</a></p>
+                  <p><a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_4/lajmi4.html">Concept
+                              One mund të jetë telefoni i parë i palosshëm nga OnePlus</a></p>
 
 
 
@@ -120,7 +162,8 @@
                   <a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_5/lajmi5.html"><img
                               src="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_5/vitiapple.jpg"
                               alt="apple"></a>
-                  <p><a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_5/lajmi5.html">Raporti i ri tregon arsyet pse 2020 do të jetë viti i Apple</a></p>
+                  <p><a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_5/lajmi5.html">Raporti
+                              i ri tregon arsyet pse 2020 do të jetë viti i Apple</a></p>
 
             </div>
 
@@ -128,7 +171,8 @@
                   <a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_6/lajmi6.html"><img
                               src="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_6/tiktok.jpg"
                               alt="tiktok"></a>
-                  <p><a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_6/lajmi6.html"> Rreziku nga Kina, Marina amerikane ua ndalon anëtarëve të përdorin aplikacionin
+                  <p><a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_6/lajmi6.html">
+                              Rreziku nga Kina, Marina amerikane ua ndalon anëtarëve të përdorin aplikacionin
                               TikTok</a></p>
 
 
@@ -139,7 +183,8 @@
                   <a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_7/lajmi7.html"><img
                               src="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_7/siri.jpg"
                               alt="sirisaveme"></a>
-                  <p><a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_7/lajmi7.html"> Pasi ra me gjithë veturë në lumë dhe nuk mund ta gjente telefonin, adoleshenti bërtiti
+                  <p><a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_7/lajmi7.html">
+                              Pasi ra me gjithë veturë në lumë dhe nuk mund ta gjente telefonin, adoleshenti bërtiti
                               ‘Siri, telefono 911’ – gjë që i shpëtoi jetën atij!</a></p>
 
             </div>
@@ -149,7 +194,8 @@
                   <a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_8/lajmi8.html"><img
                               src="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_8/assistent.jpg"
                               alt="Gassistent"></a>
-                  <p><a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_8/lajmi8.html"> Google Assistent me përditësimin që mundëson përkthim në kohë reale</a></p>
+                  <p><a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_8/lajmi8.html">
+                              Google Assistent me përditësimin që mundëson përkthim në kohë reale</a></p>
 
             </div>
 
@@ -157,7 +203,8 @@
                   <a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_9/lajmi9.html"><img
                               src="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_9/kryeminister.jpg"
                               alt="hargjonpare"></a>
-                  <p><a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_9/lajmi9.html">Ish nënkancelari austriak “i varur” nga videolojërat – shpenzoi deri në 3 mijë euro në
+                  <p><a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_9/lajmi9.html">Ish
+                              nënkancelari austriak “i varur” nga videolojërat – shpenzoi deri në 3 mijë euro në
                               muaj dhe faturat ia ngarkoi partisë</a></p>
 
             </div>
@@ -167,7 +214,8 @@
                   <a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajme_10/lajmi10.html"><img
                               src="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajme_10/aplefoto.jpg"
                               alt="apple"></a>
-                  <p><a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_10/lajmi10.html"> Apple Arcade është pak më i lirë, nëse doni të paguani për një vit</a></p>
+                  <p><a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi_10/lajmi10.html">
+                              Apple Arcade është pak më i lirë, nëse doni të paguani për një vit</a></p>
 
 
 

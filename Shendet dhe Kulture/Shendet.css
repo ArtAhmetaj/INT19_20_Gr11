@@ -398,14 +398,13 @@ border-radius:5px;
   
  #fshihe
  {
-  
-  margin-left:50em;
-  margin-bottom:0.5em;
+position:relative;
+margin-top:20px;
  }
 
 
  #shfaqe
  {
    margin-left:50em;
-  
+   opacity: 0;
  }

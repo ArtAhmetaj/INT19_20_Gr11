@@ -44,6 +44,10 @@ p
 {
   font-family: 'Ubuntu', sans-serif;
   
+  color: teal;
+  font-weight:bold;
+  font-variant: small-caps;
+  
 }
 
 h6{
@@ -358,11 +362,21 @@ h3
 {
     position:relative;
     top:10px;
+    
 }
 
-#kerkesat
-{
-  column-count:3;
-  column-gap:40px;
-  column-width: 200px;
+.column {
+  float: left;
+  width: 33.33%;
+
 }
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
       <head>
-            <title> Projekti final</title>
+            <title> Shendeti</title>
             <meta charset="UTF-8">
             <link rel="stylesheet" href="Shendet.css">
             <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Ubuntu&display=swap" rel="stylesheet"> 
@@ -23,6 +23,32 @@
 
 
 </script>
+<script>
+
+
+function preke()
+{
+      var z = document.getElementById("shfaqe");
+z.style.opacity="1";
+var y=document.getElementById("fshihe");
+y.style.opacity="0";
+
+}
+
+function preke2()
+
+{
+
+
+      var z = document.getElementById("shfaqe");
+z.style.opacity="0";
+var y=document.getElementById("fshihe");
+y.style.opacity="1"
+}
+
+
+</script>
+
 
       </head>
 
@@ -33,9 +59,12 @@
                   <h1 > <abbr title="Portali Informativ i Kosoves">PIK</abbr></h1>
             <p> Portali Informativ i Kosoves</p>
  
+            
       </div>
       <div id="container2">     
      
+
+            
             <input type="search" placeholder="Kerkoni ne Faqen tone " id="site-search" name="q"
                    aria-label="Search through site content">
              
@@ -57,7 +86,7 @@
       </ul>
 
 
-
+<button onclick="preke2();"type="button" id="shfaqe">Shfaqe Lajmin</button>
 </nav>
 
 <div id="LajmiKryesor">
@@ -67,7 +96,8 @@
                   <h1>Qendra Klinike Universitare e Kosoves futet ne greve masive</h1>
                   <p>I gjithe stafi i QKUK futen ne greve ne shenje proteste per rritje te pagave. Ministri ne detyre, Fetah Podvorica kishte deklaruar ne rritje 30% te pagave, por pasi qe fitoi mandatin dhe pushtetin nuk beri asgje.</p>
                   <a href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/LajmeTemplate/Lajmi 1/lajmi.html" class="butoni" style="text-decoration: none;">Lexo me Shume</a>
-               
+                  <button onclick="preke();" type="button" id="fshihe">Fshihe Lajmin</button>
+
             </div>
             </div>
       </div>
@@ -75,8 +105,7 @@
 </div>
 
 <hr>
-<button type="button" id="fshihe">Fshihe Lajmin</button>
-<button type="button" id="shfaqe">Shfaqe Lajmin</button>
+<!-- sqtas-->
 
 <div class="parent">
 

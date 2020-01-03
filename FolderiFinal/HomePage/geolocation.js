@@ -9,8 +9,8 @@ function getLocation() {
 }
 
 function showPosition(position) {
-  g.innerHTML = "Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;
+  geo.innerHTML = "Gjeresia gjeografike: " + position.coords.latitude + 
+  "<br>Gjatesia gjeografike: " + position.coords.longitude;
   
   
 }

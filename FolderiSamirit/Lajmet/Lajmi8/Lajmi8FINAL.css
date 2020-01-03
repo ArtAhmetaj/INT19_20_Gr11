@@ -1,0 +1,313 @@
+#header
+{
+    display:flex;
+justify-content: space-between;
+margin-top:30px;
+}
+
+
+
+body
+{
+    padding:0 30px 30px 30px;
+   background-image:url(../cloth_alike.png);
+
+  
+    
+}
+
+
+
+/* Fonts
+    font-family: 'Ubuntu', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Solway', serif;
+*/
+
+header p 
+
+{
+  color:#3D9970;
+  font-weight:bold;
+}
+
+p
+{
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+
+h6{
+  font-size:18px;
+}
+
+
+
+h1,h3,h6
+{
+    color:#3D9970;
+    font-family: 'Lato', sans-serif;
+}
+
+#container1
+{
+
+    align-self:flex-start;
+}
+
+#container2
+{
+    align-self:flex-end;
+    margin-bottom:30px;
+}
+
+
+
+#search
+{
+  display:inline;
+}
+
+
+#homepages {
+
+    list-style-type: none;
+  display:flex;
+  justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #001f3f;
+    border-radius:10px;
+   
+  }
+  
+  li {
+  
+    width:150%;
+    height:150%;
+    font-family: 'Open Sans', sans-serif;
+   
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+    
+  }
+  
+
+ 
+   	
+  li a:hover {
+    background-color:  	#8E7866;
+  }
+
+
+
+
+button 
+ {
+  color:white;
+  background-color:#001f3f;
+  border-radius:9px;
+  height:2.8em;
+  width:6em;
+  display:block;
+  border:0px;
+ }
+
+
+
+
+
+
+#menu
+{
+    
+    display: flex;
+            flex-direction: row;
+            border-radius: 5rem;
+    color:white;
+        }
+.item
+{
+    background: #001f3f;;
+    padding: 1rem;
+    text-align: center;
+    margin: 0.05rem;
+    flex: 1;
+    list-style:none;
+}
+li:first-child{
+    
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+    
+li:last-child{
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+li:nth-child(1):hover
+{
+  background-color:#2f97c1 ;
+ font-weight:bold;
+ font-size:20px;
+ cursor: pointer;
+}
+
+
+
+li:nth-child(2):hover
+{
+  background-color:#214f4b ;
+  font-weight:bold;
+ font-size:20px;
+ cursor: pointer;
+}
+
+
+li:nth-child(3):hover
+{
+  background-color:#85144b  ;
+  font-weight:bold;
+ font-size:20px;
+ cursor: pointer;
+}
+
+li:nth-child(4):hover
+{
+  background-color:#de6c83 ;
+  font-weight:bold;
+ font-size:20px;
+ cursor: pointer;
+}
+
+li:nth-child(5):hover
+{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(182,153,189,1) 0%, rgba(14,138,163,1) 98%);  font-weight:bold;
+ font-size:20px;
+ cursor: pointer;
+}
+
+
+li:nth-child(6):hover
+{
+  
+  font-weight:bold;
+ font-size:20px;
+ background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(9,121,27,0.5) 0%, rgba(14,138,163,0.8) 98%);
+ cursor: pointer;
+}
+
+
+
+hr
+{
+  color:cadetblue;
+}
+
+
+
+
+#lastone li
+{
+  list-style: none;
+}
+
+
+
+#lastone div span
+{
+  color:#3D9970;
+}
+
+
+#lajmi
+{
+  display:flex;
+  flex-direction: column;
+  opacity:100%;
+margin: 5em 2em 2em 2em;
+padding: 5em;
+  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+  border-radius:30px;
+  background-color:rgba(170, 170, 170, 0.3);
+
+}
+
+
+
+#lajmi img 
+{
+    width:747px;
+    height:420px;
+    align-self:center;
+    border: 1px solid  #0074D9;  
+   
+}
+
+#lajmi h3 
+
+{
+ border-bottom:1px solid #3D9970;
+text-align: center;
+    font-size: 30px;
+    POSITION:relative;
+    bottom:1em;
+}
+
+
+#tekstinelajm
+{
+    
+    width:600px;
+    height:1000px;
+    align-self: center;
+
+}
+
+#lajmi p 
+
+{
+font-size:20px;
+
+}
+
+
+#lajmi button
+
+{
+  position:relative;
+  
+  width:120px;
+  height:90px;
+  left:15em;
+  
+  
+}
+
+
+
+#lajmi a 
+{
+  text-decoration: none;
+}
+
+
+mark
+{
+  background-color:rgba(33, 79, 75, 0.2);
+ border-radius:2px;
+ 
+}

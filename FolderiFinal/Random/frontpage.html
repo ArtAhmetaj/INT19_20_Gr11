@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Projekti final</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="frontpage.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Ubuntu&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="kerkesa.js"></script>
+  <script src="workers.js"></script>
+  <script src="webworkers.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#butonihtml").click(function () {
+        alert("" + $("h3").text());
+      });
+      $("#butoni2innerhtml").click(function () {
+        alert("" + $("h3").html());
+      });
+    });
+    var r;
+
+    function lshoje() {
+      if (typeof (Worker) !== "undefined") {
+        if (typeof (r) == "undefined") {
+          r = new Worker("workers.js");
+        }
+        r.onmessage = function (event) {
+          document.getElementById("result").innerHTML = event.data;
+        };
+      } else {
+        document.getElementById("result").innerHTML = "Browseri juaj nuk i supporton workers.";
+      }
+    }
+
+    function nale() {
+      r.terminate();
+      r = undefined;
+    }
+  </script>
+
+
+</head>
+
+
+<body>
+  <header id="header">
+    <div id="container1">
+      <h1>PIK</h1>
+      <p>Portali Informativ i Kosoves</p>
+
+    </div>
+    <div id="container2">
+
+      <input type="search" placeholder="Search our Website" id="site-search" name="q"
+        aria-label="Search through site content">
+
+      <button id="search">Search</button>
+    </div>
+
+  </header>
+
+  <nav>
+    <ul id="menu">
+      <li  onclick="location.href='/home/art/Documents/html files/newone.html'"class="item">Home</li>
+      <li  onclick="location.href='/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/Teknologji/Teknologji.html'" class="item">Teknologji</li>
+      <li onclick="location.href='/home/art/Documents/github/INT19_20_Gr11/Rubrika_Lajmet/Ballina/adi.html'"class="item">Lajme </li>
+      <li class="item">Sport</li>
+      <li onclick="location.href='/home/art/Documents/github/INT19_20_Gr11/Shendet dhe Kulture/Shendet.html'"class="item">Shendet</li>
+      <li  onclick="location.href='/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/Random/frontpage.html'"class="item">Extras</li>
+
+    </ul>
+
+
+  </nav>
+  <div id="lajmi">
+    <h3><strong>KERKESAT E TJERA</strong></h3>
+    <div id="kerkesat" class="row">
+
+      <div class="column">
+        <p> Butonat per me mar info ne jQuery</p>
+        <button id="butonihtml" type="button">INFO per HTML</button>
+        <button id="butoni2innerhtml" type="button">INFO per INNERHTML</button>
+
+      </div>
+
+      <div class="column">
+
+
+        <p> Qoje Foton majtas Djathas(Drag and Drop kerkesa) </p>
+        <div id="hapsira1" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <img id="drag" src="dragdrop.png" draggable="true" ondragstart="drag(event)" id="drag1">
+        </div>
+
+        <div id="hapsira2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+
+
+
+      </div>
+
+
+      <div id="wworker" class="column">
+
+        <p>Ne momentin qe e prekni Start, fillon numerimi ne sekonda se sa keni qendruar ne faqe:</p>
+
+        <p> <output id="result"></output> sekonda</p>
+        <button onclick="lshoje()">Lesho</button>
+        <br>
+        <button id="dyshi" onclick="nale()">Ndalo</button>
+        <!-- tralala -->
+
+      </div>
+
+
+
+
+
+
+    </div>
+
+    <!-- qitu  vazhdojme me second shit-->
+
+
+
+  </div>
+
+</body>
+
+
+</html>

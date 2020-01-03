@@ -14,13 +14,16 @@ label
 body
 {
     padding:0 30px 30px 30px;
-   background-image:url(cloth_alike.png)
+   background-image:url('../HomePage/cloth_alike.png');
 
   
     
 }
 
-
+#location 
+{
+ margin-left: 3em;
+}
 
 /* Fonts
 
@@ -136,7 +139,10 @@ h1,h3,h6
      
     margin-right:250px;
     margin-top:50px;
+    
   }
+
+
 
 
 
@@ -212,13 +218,14 @@ article
 }
 
 
+
+
 #rreshti2 img
 
 {
   margin-bottom:3em;
   border:solid 3px #FF851B ;
 }
-
 
 button 
  {
@@ -286,51 +293,76 @@ section
     flex: 1;
     list-style:none;
 }
+
+
+
+
+
 li:first-child{
     
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
+  
 li:last-child{
 
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 li:nth-child(1):hover
 {
-  background-color:#2f97c1 ;
- font-weight:bold;
- font-size:20px;
- 
+background-color:#2f97c1 ;
+font-weight:bold;
+font-size:20px;
+cursor: pointer;
 }
+
+
 
 li:nth-child(2):hover
 {
-  background-color:#214f4b ;
-  font-weight:bold;
- font-size:20px;
+background-color:#214f4b ;
+font-weight:bold;
+font-size:20px;
+cursor: pointer;
 }
+
 
 li:nth-child(3):hover
 {
-  background-color:#85144b  ;
-  font-weight:bold;
- font-size:20px;
-}
-li:nth-child(4):hover
-{
-  background-color:#de6c83 ;
-  font-weight:bold;
- font-size:20px;
-}
-li:nth-child(5):hover
-{
-  background-color:#372549 ;
-  font-weight:bold;
- font-size:20px;
+background-color:#85144b  ;
+font-weight:bold;
+font-size:20px;
+cursor: pointer;
 }
 
+li:nth-child(4):hover
+{
+background-color:#de6c83 ;
+font-weight:bold;
+font-size:20px;
+cursor: pointer;
+}
+
+li:nth-child(5):hover
+{
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(182,153,189,1) 0%, rgba(14,138,163,1) 98%);  font-weight:bold;
+font-size:20px;
+cursor: pointer;
+}
+
+
+li:nth-child(6):hover
+{
+
+font-weight:bold;
+font-size:20px;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(9,121,27,0.5) 0%, rgba(14,138,163,0.8) 98%);
+cursor: pointer;
+}
 
 .foto button
 {
@@ -345,7 +377,8 @@ li:nth-child(5):hover
 {
   display:flex;
   justify-content: space-around;
-
+  margin-right: auto;
+  margin-left: auto;
   margin-top:2.5em;
   position:relative;
   right:5em;
@@ -496,4 +529,31 @@ top:0.3em;
   position : relative;
 
 bottom:10px;
+}
+#lokacioni
+{
+  text-decoration: none;
+  color: black;
+}
+
+/* #lokacioni
+{
+  text-decoration: none;
+  color:green;
+}
+#lokacioni:hover
+{
+  text-transform: uppercase;
+  color: yellowgreen
+} */
+
+
+
+
+
+#loja
+
+{
+  text-decoration: none;
+  color:#3D9970;
 }

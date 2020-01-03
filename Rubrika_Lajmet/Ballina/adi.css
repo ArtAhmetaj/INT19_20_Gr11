@@ -373,19 +373,17 @@ mark
 
 }
 
-
-
 .griddivs p 
 {
   text-align: center;
 }
 
-.griddivs:hover
+.griddivs p a:hover
 {
 
   
   
-  font-weight: bold;
+  font-style:italic;
   
 }
 
@@ -394,12 +392,34 @@ mark
   box-shadow: rgba(0, 0, 0,1) 0 4px 3px;
 border:6px  solid #001f3f;
 border-radius:5px;
+background-color:rgba(127, 219, 255, 0.17);
+}
 
 
 
-  }
+.griddivs p  a
 
+{
+
+  color:black;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
 
 
   
+
   
+#fshihe
+{
+position:relative;
+margin-top:20px;
+}
+
+
+#shfaqe
+{
+  margin-left:50em;
+  opacity: 0;
+}

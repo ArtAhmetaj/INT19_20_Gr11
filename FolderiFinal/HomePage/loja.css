@@ -1,0 +1,34 @@
+canvas {
+    border:1px solid #d3d3d3;
+ 
+    position:relative;
+    top:15em;
+left : 40em;
+    background-color: #f1f1f1;
+   
+}
+body {
+    background: url(./email-pattern.png)
+}
+
+p
+{
+    font-family: 'Ubuntu', serif;
+        text-align: center;
+        color:#3D9970;
+        font-variant: small-caps;
+font-size:20px;
+    
+}
+
+h1
+{
+    position:relative;
+    left:23em;
+    bottom:5em;
+    font-variant: small-caps;
+    font-family: 'Lato', sans-serif;
+    color:#85144b;
+}
+
+

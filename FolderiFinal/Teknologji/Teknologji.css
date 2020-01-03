@@ -10,7 +10,7 @@ margin-top:30px;
 body
 {
     padding:0 30px 30px 30px;
-   background-image:url(cloth_alike.png)
+    background-image:url(cloth_alike.png)
 
   
     
@@ -81,6 +81,7 @@ header p
 {
   color:#3D9970;
   font-weight:bold;
+  
 }
 
 p
@@ -365,12 +366,12 @@ mark
   text-align: center;
 }
 
-.griddivs:hover
+.griddivs p a:hover
 {
 
   
   
-  font-weight: bold;
+  font-style:italic;
   
 }
 
@@ -379,12 +380,38 @@ mark
   box-shadow: rgba(0, 0, 0,1) 0 4px 3px;
 border:6px  solid #001f3f;
 border-radius:5px;
+background-color:rgba(127, 219, 255, 0.17);
+}
 
 
 
-  }
+.griddivs p  a
+
+{
+
+  color:black;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+
 
 
 
   
   
+
+  
+#fshihe
+{
+position:relative;
+margin-top:20px;
+}
+
+
+#shfaqe
+{
+  margin-left:50em;
+  opacity: 0;
+}

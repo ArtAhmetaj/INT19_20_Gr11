@@ -1,23 +1,30 @@
-function updateBackground() {
-
-    var hr = (new Date()).getHours();
-    var body = document.body;
-    var bstyle = body.style;
+function  koha()
+{
 
 
+var currentTime = new Date().getHours();
 
-    if (hr < 20) {
-        bstyle.backgroundImage = "url('Homepage/cloth_alike.png')";
-            
+if (7 <= currentTime && currentTime < 20) {
+    if (document.body) {
+        document.body.style.backgroundImage = "url('Homepage/cloth_alike.png')"; 
+
+       
+     
     }
-    else {
-        bstyle.backgroundImage = "url('/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/HomePage/foto1.png')";
-      
+}  
+else {
+    if (document.body) {
 
+        document.body.style.backgroundImage = "url('/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/email-pattern.png')";
+        
+        
+
+        
     }
 }
 
-updateBackground();
+}
 
-/*   setInterval(updateBackground, 1000 * 60);
- */
+koha();
+setInterval(koha, 1000 * 60);
+

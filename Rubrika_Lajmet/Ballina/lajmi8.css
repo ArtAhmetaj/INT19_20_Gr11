@@ -216,12 +216,17 @@ hr
 
 #lajmi
 {
-    display:flex;
-    flex-direction: column;
+  display:flex;
+  flex-direction: column;
+  opacity:100%;
+margin: 5em 2em 2em 2em;
+padding: 5em;
+  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+  border-radius:30px;
+  background-color:rgba(170, 170, 170, 0.3);
 
 }
-
-
 #lajmi img 
 {
     width:747px;

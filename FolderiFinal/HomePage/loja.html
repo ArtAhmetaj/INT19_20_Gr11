@@ -3,31 +3,42 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link rel="stylesheet" href="loja.css">
+<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Ubuntu&display=swap" rel="stylesheet"> 
+<script src="loja.js">
+
+</script>
+
+
+
 <style>
 
 div
 {
   text-align: center;
   width:480px;
-  margin-left:30em;
+  margin-left:40em;
+  margin-top:15.5em;
+  
 }
+
 </style>
 
-<script src="loja.js">
-
-</script>
 
 </head>
 <body onload="startGame()">
-    <p>Parkojeni katrorin</p>
-
+  
+  <h1> KERKESA E LOJES</h1>
 <div >
-
+  <p>Parkojeni katrorin</p>
 
     <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">Lart</button><br><br>
   <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">Majtas</button>
   <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">Djathtas</button><br><br>
   <button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">Poshte</button>
     <br>
+
+
+
+    <canvas id='myCanvas' width='800' height='800'></canvas>
 
 </div>

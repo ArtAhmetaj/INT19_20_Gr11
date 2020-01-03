@@ -3,7 +3,7 @@ var myObstacle;
 
 function startGame() {
     myGamePiece = new component(30, 30, "blue", 10, 120);
-    myObstacle  = new component(10, 30, "red", 433, 0);    
+    myObstacle  = new component(5, 30, "red", 447, 0);    
     myGameArea.start();
 }
 
@@ -14,7 +14,7 @@ var myGameArea = {
         this.canvas.height = 270;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
-        this.interval = setInterval(updateGameArea, 5);
+        this.interval = setInterval(updateGameArea, 20);
     },
     clear : function() {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
@@ -46,7 +46,7 @@ function component(width, height, color, x, y) {
         var othertop = otherobj.y;
         var otherbottom = otherobj.y + (otherobj.height);
         var crash = false;
-        if(myleft==otherright+2 && mytop==othertop)
+        if(myleft==otherright && mytop==othertop)
         crash=true;
         return crash;
     }
@@ -56,7 +56,10 @@ function component(width, height, color, x, y) {
 function updateGameArea() {
     if (myGamePiece.crashWith(myObstacle)) {
         myGameArea.stop()
-        alert("fitove");
+        alert("Fitove Lojen ");
+        
+window.location.href = "http://www.w3schools.com";
+        
     } else {
         myGameArea.clear();
         myObstacle.update();

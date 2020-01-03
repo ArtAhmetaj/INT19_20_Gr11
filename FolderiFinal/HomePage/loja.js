@@ -58,7 +58,6 @@ function updateGameArea() {
         myGameArea.stop()
         alert("Fitove Lojen ");
         
-window.location.href = "http://www.w3schools.com";
         
     } else {
         myGameArea.clear();

@@ -12,9 +12,28 @@
 
   <link rel="stylesheet" href="forma.css">
   <script src="errorcatching.js" defer ></script>  
-  
- 
-  
+  <script src="storage.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    if(localStorage) {
+	$(document).ready(function() {
+		$("#save").click(function() {
+			// Get input name
+			var Username = $("#Username").val();
+			
+			// Store data
+    		localStorage.setItem("first_name", Username);
+			alert("Jeni kycur me sukses. Usernami juaj eshte ruajtur.");
+		});
+		$("#access").click(function() {
+			// Retrieve data
+    		alert("Pershendetje, " + localStorage.getItem("first_name"));
+		});
+	});
+} else {
+    alert("Browseri juaj nuk e supporton local storage.");
+}
+  </script>  
 </head>
 
 <body>
@@ -24,12 +43,12 @@
   <div class="log-form">
     <h2>Login ne Account </h2>
     <form method="get" autocomplete="on">
-      <input id="username" type="text" title="username" name="username" placeholder="Username" required maxlength="20"
+      <input id="Username" type="text" title="username" name="username" placeholder="Username" required maxlength="20"
         list />
       <input type="password" title="username" name="password" placeholder="Password" autocomplete="off" required />
 
-      <button onclick="isUsername();"  type="submit" class="btn">Login</button>
-
+      <button onclick="isUsername();"  type="submit" class="btn" id="save">Login</button>
+      <button type="button" id="access" class="btn">Who am I?</button>
 
       <a class="forgot"
         href="/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/Forma_login/forgot Password/formaperkthim.html">Forgot

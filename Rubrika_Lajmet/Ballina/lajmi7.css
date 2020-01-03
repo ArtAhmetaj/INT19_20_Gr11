@@ -10,7 +10,7 @@ margin-top:30px;
 body
 {
     padding:0 30px 30px 30px;
-   background-image:url(../cloth_alike.png);
+   background-image:url(cloth_alike.png);
 
   
     
@@ -145,55 +145,69 @@ button
 }
 li:first-child{
     
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
+  
 li:last-child{
 
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 li:nth-child(1):hover
 {
-  background-color:#2f97c1 ;
- font-weight:bold;
- font-size:20px;
-
+background-color:#2f97c1 ;
+font-weight:bold;
+font-size:20px;
+cursor: pointer;
 }
+
+
 
 li:nth-child(2):hover
 {
-  background-color:#214f4b ;
-  font-weight:bold;
- font-size:20px;
+background-color:#214f4b ;
+font-weight:bold;
+font-size:20px;
+cursor: pointer;
 }
+
 
 li:nth-child(3):hover
 {
-  background-color:#85144b  ;
-  font-weight:bold;
- font-size:20px;
+background-color:#85144b  ;
+font-weight:bold;
+font-size:20px;
+cursor: pointer;
 }
+
 li:nth-child(4):hover
 {
-  background-color:#de6c83 ;
-  font-weight:bold;
- font-size:20px;
+background-color:#de6c83 ;
+font-weight:bold;
+font-size:20px;
+cursor: pointer;
 }
+
 li:nth-child(5):hover
 {
-  background-color:#372549 ;
-  font-weight:bold;
- font-size:20px;
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(182,153,189,1) 0%, rgba(14,138,163,1) 98%);  font-weight:bold;
+font-size:20px;
+cursor: pointer;
 }
 
 
+li:nth-child(6):hover
+{
 
-
-
-
-hr
+font-weight:bold;
+font-size:20px;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(9,121,27,0.5) 0%, rgba(14,138,163,0.8) 98%);
+cursor: pointer;
+}hr
 {
   color:cadetblue;
 }
@@ -216,8 +230,15 @@ hr
 
 #lajmi
 {
-    display:flex;
-    flex-direction: column;
+  display:flex;
+  flex-direction: column;
+  opacity:100%;
+margin: 5em 2em 2em 2em;
+padding: 15em;
+  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+  border-radius:30px;
+  background-color:rgba(170, 170, 170, 0.3);
 
 }
 

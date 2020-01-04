@@ -10,7 +10,7 @@ margin-top:30px;
 body
 {
     padding:0 30px 30px 30px;
-    background-image:url('cloth_alike.png');
+    background-image:url('../FolderiFinal/HomePage/cloth_alike.png') !important;
 
   
     
@@ -375,4 +375,9 @@ background-color:rgba(127, 219, 255, 0.17);
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
   text-decoration: none;
+}
+#shfaqe
+{
+  margin-left:50em;
+  opacity: 0;
 }

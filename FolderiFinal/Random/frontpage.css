@@ -10,7 +10,7 @@ margin-top:30px;
 body
 {
     padding:0 30px 30px 30px;
-   background-image:url(../cloth_alike.png);
+   background-image:url('../HomePage/cloth_alike.png') !important;
 
   
     
@@ -437,3 +437,23 @@ h3
   background: blue;
   transform: rotateY(180deg);
 }
+
+/*  ill think about it 
+ #Regexa
+
+{
+
+
+  margin-left:40px;
+}
+
+ */
+
+ .butonkatror
+ {
+   
+   margin-left:170px;
+   position:relative;
+   bottom:87px;
+
+ }

@@ -1,4 +1,5 @@
 var geo = document.getElementById("geoloc");
+geo.style.color="#3D9970";
 
 function getLocation() {
   if (navigator.geolocation) {

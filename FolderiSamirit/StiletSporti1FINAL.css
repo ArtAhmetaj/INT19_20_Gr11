@@ -10,7 +10,7 @@ margin-top:30px;
 body
 {
     padding:0 30px 30px 30px;
-    background-image:url('../FolderiFinal/HomePage/cloth_alike.png') !important;
+    background-image:url('cloth_alike.png');
 
   
     
@@ -197,11 +197,19 @@ button
     flex: 1;
     list-style:none;
 }
-li:first-child{
+[18:21, 1/3/2020] Arti: <li  onclick="location.href='/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/HomePage/newone.html'"class="item">Home</li>
+            <li  onclick="location.href='/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/Teknologji/Teknologji.html'" class="item">Teknologji</li>
+            <li onclick="location.href='/home/art/Documents/github/INT19_20_Gr11/Rubrika_Lajmet/Ballina/adi.html'"class="item">Lajme </li>
+            <li onclick="location.href='/home/art/Documents/github/INT19_20_Gr11/FolderiSamirit/Sporti1f.html'" class="item">Sport</li>
+            <li onclick="location.href='/home/art/Documents/github/INT19_20_Gr11/Shendet dhe Kulture/Shendet.html'"class="item">Shendet</li>
+            <li  onclick="location.href='/home/art/Documents/github/INT19_20_Gr11/FolderiFinal/Random/frontpage.html'"class="item">Extras</li>
+[18:22, 1/3/2020] Arti: Qikjo e para eshte HTML qitne te navigation bar ku jon  shum lehte vrehet qitne ne krejt senet ku keni navigation bar qka keni punu
+[18:22, 1/3/2020] Arti: li:first-child{
     
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+    
 li:last-child{
 
     border-top-right-radius: 20px;
@@ -213,37 +221,54 @@ li:nth-child(1):hover
   background-color:#2f97c1 ;
  font-weight:bold;
  font-size:20px;
-
+ cursor: pointer;
 }
+
+
 
 li:nth-child(2):hover
 {
   background-color:#214f4b ;
   font-weight:bold;
  font-size:20px;
+ cursor: pointer;
 }
+
 
 li:nth-child(3):hover
 {
   background-color:#85144b  ;
   font-weight:bold;
  font-size:20px;
+ cursor: pointer;
 }
+
 li:nth-child(4):hover
 {
   background-color:#de6c83 ;
   font-weight:bold;
  font-size:20px;
+ cursor: pointer;
 }
+
 li:nth-child(5):hover
 {
-  background-color:#372549 ;
-  font-weight:bold;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(182,153,189,1) 0%, rgba(14,138,163,1) 98%);  font-weight:bold;
  font-size:20px;
+ cursor: pointer;
 }
 
 
-
+li:nth-child(6):hover
+{
+  
+  font-weight:bold;
+ font-size:20px;
+ background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(9,121,27,0.5) 0%, rgba(14,138,163,0.8) 98%);
+ cursor: pointer;
+}
 
 
 
@@ -253,7 +278,7 @@ hr
 }
 
 
-/* #LajmiKryesor
+ #LajmiKryesor
 {
   display:flex;
   justify-content: center;
@@ -262,7 +287,7 @@ align-items: center;
  
   padding-bottom:1.3em;
 } */
-/* 
+ 
 #LajmiKryesor img
 {
   width: 450px;
@@ -270,7 +295,7 @@ align-items: center;
  
  
   
-} */
+} 
 
 mark
 {
@@ -375,9 +400,4 @@ background-color:rgba(127, 219, 255, 0.17);
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
   text-decoration: none;
-}
-#shfaqe
-{
-  margin-left:50em;
-  opacity: 0;
 }

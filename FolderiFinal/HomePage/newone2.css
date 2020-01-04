@@ -557,3 +557,15 @@ bottom:10px;
   text-decoration: none;
   color:#3D9970;
 }
+
+
+#list2 li
+{
+ 
+}
+
+
+#list2 li:hover
+{
+  all:initial;
+}

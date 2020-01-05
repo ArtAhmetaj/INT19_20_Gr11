@@ -10,7 +10,7 @@ margin-top:30px;
 body
 {
     padding:0 30px 30px 30px;
-   background-image:url(cloth_alike.png);
+     background-image:url('cloth_alike.png');
 
   
     
@@ -19,9 +19,18 @@ body
 
 
 /* Fonts
+
+
     font-family: 'Ubuntu', serif;
+
     font-family: 'Lato', sans-serif;
+
     font-family: 'Solway', serif;
+
+
+
+
+
 */
 
 header p 
@@ -207,7 +216,11 @@ font-size:20px;
 background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(9,121,27,0.5) 0%, rgba(14,138,163,0.8) 98%);
 cursor: pointer;
-}hr
+}
+
+
+
+hr
 {
   color:cadetblue;
 }
@@ -229,8 +242,7 @@ cursor: pointer;
 
 
 #lajmi
-{
-  display:flex;
+{ display:flex;
   flex-direction: column;
   opacity:100%;
 margin: 5em 2em 2em 2em;
@@ -241,7 +253,6 @@ padding: 5em;
   background-color:rgba(170, 170, 170, 0.3);
 
 }
-
 
 #lajmi img 
 {
@@ -305,4 +316,141 @@ mark
   background-color:rgba(33, 79, 75, 0.2);
  border-radius:2px;
  
+}
+
+/* experimental */
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+
+
+
+
+/*** Table Styles **/
+
+.table-fill {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  height: 320px;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+ 
+th {
+  color:#D5DDE5;;
+  background:#0074D9;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:23px;
+  font-weight: 100;
+  padding:24px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+ 
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+  
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+}
+ 
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+ 
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+ 
+tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+th.text-left {
+  text-align: left;
+}
+
+th.text-center {
+  text-align: center;
+}
+
+th.text-right {
+  text-align: right;
+}
+
+td.text-left {
+  text-align: left;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+td.text-right {
+  text-align: right;
+}
+
+
+caption 
+ 
+{ font-weight: bold;
+color:#3D9970;
+font-size: 24px;  
+margin-bottom:1em;
+font-family: 'Ubuntu', sans-serif;
+  
+
 }

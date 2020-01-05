@@ -307,7 +307,7 @@ mark
  
 }
 
-#list2 li:window-inactive
+#list2 li:hover
 {
   all:initial;
 }

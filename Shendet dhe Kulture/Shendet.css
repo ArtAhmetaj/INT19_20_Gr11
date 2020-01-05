@@ -536,3 +536,25 @@ margin-left: 1.5em;
 {
   size: 10px;
 }
+/* css i tabeles */
+table.tabelainfo {
+  width: 100%;
+  background: #2e3c47;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #0004ff;
+  border-style: solid;
+  color: white;
+
+}
+
+table.tabelainfo td, table.tabelainfo th {
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.tabelainfo thead {
+  background-color: #156b00;
+}

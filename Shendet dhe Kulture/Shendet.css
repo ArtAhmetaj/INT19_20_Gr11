@@ -17,6 +17,9 @@ body
     
 }
 
+p{
+  margin: 0.5rem 0;
+}
 
 /* Fonts
 
@@ -448,7 +451,7 @@ img
 }
 .bg-primary
 {
-  background:#ffe600;
+  background:#ff1e00;
   color: #fff;
 }
 .bg-secondary
@@ -481,4 +484,55 @@ a
 {
   text-decoration: none;
   color: black;
+}
+#futa :hover
+{
+  all: unset;
+}
+/* footeri */
+#main-footer
+{
+  background: #2e3c47;
+  color: #fff;
+}
+#main-footer a 
+{
+  color: #fff;
+}
+#main-footer .footer-container
+{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+
+grid-gap: 1.5rem;
+}
+
+#main-footer .footer-container >*:last-child
+{
+  background:#001f3f;
+  grid-column: 1 / span 4;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+}
+
+#main-footer .footer-container input[type='email']
+{
+  width: 90%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#main-footer .footer-container input[type='submit']
+{
+  width: 90%;
+}
+#info
+{
+
+margin-left: 1.5em;
+}
+#linqet
+{
+  size: 10px;
 }

@@ -28,3 +28,4 @@ else {
 koha();
 setInterval(koha, 1000 * 60);
 
+alert(currentTime);

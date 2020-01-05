@@ -376,8 +376,9 @@ margin-top:30px;
 justify-content: stretch;
 align-items: center;
 height:200px;
+background:url('vichy.png') ;
 
-background-color:rgba(127, 219, 255, 0.03);
+background-color:rgba(152, 180, 212,0.25);
 
 border: 25px solid #B88846;
 box-shadow: rgba(0, 0, 0,1) 0 6px 3px;
@@ -385,7 +386,7 @@ border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' 
 
  animation-name: fadeInUp;
   -moz-animation-name:fadeInUp;
-       animation-duration: 3s;
+       animation-duration: 5s;
        animation-direction:linear;
 
 }
@@ -418,6 +419,12 @@ border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' 
 
 }
 
+.Lajmi h3:hover
+{
+  border-left:4px solid  #2ECC40 ;
+}
+
+
 
 
 .Lajmi:hover
@@ -436,6 +443,7 @@ border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' 
 @keyframes fadeInUp {
   from {
     opacity: 0;
+    filter:blur(2px);
     -webkit-transform: translate3d(-2000px, 0, 0);
     transform: translate3d(-2000px, 0, 0);
   }

@@ -16,7 +16,11 @@ body
     
 }
 
-
+figcaption {
+  display: block;
+  align-self:center;
+  padding: 0px 10px 30px 0px ;
+}
 
 /* Fonts
     font-family: 'Ubuntu', serif;
@@ -240,9 +244,12 @@ hr
   flex-direction: column;
   opacity:100%;
 margin: 5em 2em 2em 2em;
-padding: 5em;
+padding-top: 2.2em;
+padding-left:5em;
+padding-right:5em;
   
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  border:3px solid darkcyan;
   border-radius:30px;
   background-color:rgba(170, 170, 170, 0.3);
 

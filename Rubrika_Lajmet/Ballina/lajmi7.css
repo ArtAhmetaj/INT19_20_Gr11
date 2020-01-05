@@ -306,3 +306,8 @@ mark
  border-radius:2px;
  
 }
+
+#list2 li:window-inactive
+{
+  all:initial;
+}

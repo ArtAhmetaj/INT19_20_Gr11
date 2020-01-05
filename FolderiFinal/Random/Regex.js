@@ -27,7 +27,7 @@ function Gjeje_Syprinen() {
 
   var rrezja = document.getElementById("circle").getAttribute("r");
 
-  var Syprina =  2 * Math.PI * rrezja;
+  var Syprina = 2 * Math.PI * rrezja;
 
   alert(Syprina);
 
@@ -35,35 +35,63 @@ function Gjeje_Syprinen() {
 
 }
 
-function Gjeje_Diagonalen()
-
-{
-  var  a  =document.getElementById("katrori").getAttribute("width");
+function Gjeje_Diagonalen() {
+  var a = document.getElementById("katrori").getAttribute("width");
   var Diagonalja = a * Math.sqrt(2);
 
   alert(Diagonalja);
 }
 
 
-function replace()
-
-{
+function replace() {
 
   var text = document.getElementById("wood").innerHTML;
-// versioni 2 
-//var res =text.replace("woodchuck","art");
+  // versioni 2 
+  //var res =text.replace("woodchuck","art");
   var res = text.replace(/woodchuck/gi, "art");
-  document.getElementById("wood").innerHTML=res;
+  document.getElementById("wood").innerHTML = res;
   // var res = str.replace("Microsoft", "W3Schools"); 
 }
 
-function Regexec()
+function Regexec() {
 
-{
+  var str = document.getElementById("wood").innerHTML;
+  var patt = new RegExp("art");
+  var res = patt.exec(str);
+  document.getElementById("exec").innerHTML = res;
+}
 
-    var str = document.getElementById("wood").innerHTML;
-    var patt = new RegExp("art");
-    var res = patt.exec(str);
-    document.getElementById("exec").innerHTML = res;
+
+
+
+function splitfjala() {
+
+
+    var str = document.getElementById("fjalia").value;
+
+
+    var str_array = str.split(' ');
+
+    for (var i = 0; i < str_array.length; i++) {
+
+
+      str_array[i] = str_array[i].replace(/^\s*/, "").replace(/\s*$/, "");
+
+      alert(str_array[i]);
+    }
   }
+
+
+  function  kthejeneEks()
+
+  {
+    var numri=document.getElementById("numri").value;
+    // var n = numri.toExponential()
+
+    alert(n);
+    alert(Number.MAX_VALUE);
+
+
+  }
+
 

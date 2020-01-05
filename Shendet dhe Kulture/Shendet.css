@@ -10,13 +10,16 @@ margin-top:30px;
 body
 {
     padding:0 30px 30px 30px;
-   background-image:url('../FolderiFinal/Teknologji/cloth_alike.png');
+  background-color: #f9eaea;
   background-origin: border-box;
 
   
     
 }
 
+p{
+  margin: 0.5rem 0;
+}
 
 /* Fonts
 
@@ -164,55 +167,68 @@ button
 }
 li:first-child{
     
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
+  
 li:last-child{
 
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 li:nth-child(1):hover
 {
-  background-color:#2f97c1 ;
- font-weight:bold;
- font-size:20px;
-
+background-color:#2f97c1 ;
+font-weight:bold;
+font-size:20px;
+cursor: pointer;
 }
+
+
 
 li:nth-child(2):hover
 {
-  background-color:#214f4b ;
-  font-weight:bold;
- font-size:20px;
+background-color:#214f4b ;
+font-weight:bold;
+font-size:20px;
+cursor: pointer;
 }
+
 
 li:nth-child(3):hover
 {
-  background-color:#85144b  ;
-  font-weight:bold;
- font-size:20px;
+background-color:#85144b  ;
+font-weight:bold;
+font-size:20px;
+cursor: pointer;
 }
+
 li:nth-child(4):hover
 {
-  background-color:#de6c83 ;
-  font-weight:bold;
- font-size:20px;
+background-color:#de6c83 ;
+font-weight:bold;
+font-size:20px;
+cursor: pointer;
 }
+
 li:nth-child(5):hover
 {
-    background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(182,153,189,1) 0%, rgba(14,138,163,1) 98%);  font-weight:bold;
- font-size:20px;
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(182,153,189,1) 0%, rgba(14,138,163,1) 98%);  font-weight:bold;
+font-size:20px;
+cursor: pointer;
 }
+
+
 li:nth-child(6):hover
 {
-  
-  font-weight:bold;
- font-size:20px;
- background: rgb(2,0,36);
- background: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(9,121,27,0.5) 0%, rgba(14,138,163,0.8) 98%);
+
+font-weight:bold;
+font-size:20px;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(9,121,27,0.5) 0%, rgba(14,138,163,0.8) 98%);
+cursor: pointer;
 }
 
 
@@ -435,12 +451,12 @@ img
 }
 .bg-primary
 {
-  background:#f99500;
+  background:#ff1e00;
   color: #fff;
 }
 .bg-secondary
 {
-  background:#a1e622;
+  background:#ff1e00;
   color: #fff;
 }
 .py-1
@@ -463,4 +479,60 @@ img
 .bg-secondary 
 {
   color: #fff;
+}
+a
+{
+  text-decoration: none;
+  color: black;
+}
+#futa :hover
+{
+  all: unset;
+}
+/* footeri */
+#main-footer
+{
+  background: #2e3c47;
+  color: #fff;
+}
+#main-footer a 
+{
+  color: #fff;
+}
+#main-footer .footer-container
+{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+
+grid-gap: 1.5rem;
+}
+
+#main-footer .footer-container >*:last-child
+{
+  background:#001f3f;
+  grid-column: 1 / span 4;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+}
+
+#main-footer .footer-container input[type='email']
+{
+  width: 90%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#main-footer .footer-container input[type='submit']
+{
+  width: 90%;
+}
+#info
+{
+
+margin-left: 1.5em;
+}
+#linqet
+{
+  size: 10px;
 }

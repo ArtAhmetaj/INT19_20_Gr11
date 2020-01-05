@@ -43,3 +43,27 @@ function Gjeje_Diagonalen()
 
   alert(Diagonalja);
 }
+
+
+function replace()
+
+{
+
+  var text = document.getElementById("wood").innerHTML;
+// versioni 2 
+//var res =text.replace("woodchuck","art");
+  var res = text.replace(/woodchuck/gi, "art");
+  document.getElementById("wood").innerHTML=res;
+  // var res = str.replace("Microsoft", "W3Schools"); 
+}
+
+function Regexec()
+
+{
+
+    var str = document.getElementById("wood").innerHTML;
+    var patt = new RegExp("art");
+    var res = patt.exec(str);
+    document.getElementById("exec").innerHTML = res;
+  }
+

@@ -280,6 +280,9 @@ padding: 5em;
   width: 150px ;
     height: 100px; 
     align-self:center;
+    resize:both;
+    overflow:auto;
+    
     /* border: 1px solid  #0074D9;   */
    
 }
@@ -360,7 +363,9 @@ h3
     padding: 10px;
   border: solid 3px rgba(0, 116, 217, 0.3);
     background-color:rgba(170, 170, 170, 0.3);
-
+    resize:both;
+    overflow:auto;
+   
 
 }
 
@@ -457,3 +462,6 @@ h3
    bottom:87px;
 
  }
+
+
+ 
